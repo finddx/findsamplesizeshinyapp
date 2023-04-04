@@ -10,7 +10,7 @@
 #' @noRd
 
 findtitle <- tags$div(
-  tags$img(src="https://www.finddx.org/wp-content/themes/find/img/logo_header.svg",
+  tags$img(src="https://www.finddx.org/wp-content/themes/find/assets/img/logo.svg",
            height = '50', width='100'),
   tags$p("Sample Size Calculations")
 )

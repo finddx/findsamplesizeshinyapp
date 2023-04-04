@@ -1,13 +1,15 @@
 Package: findsamplesizeshinyapp
 Title: FIND Sample Size Shiny App
 Version: 0.0.0.9000
-Authors@R: person('Berra', 'Erkosar', email = 'berra.erkosar@finddx.org', role = c('cre', 'aut'))
-Description: Contains an app that makes sample size calculations for clinical trials at FIND.
+Authors@R: 
+    person("Berra", "Erkosar", , "berra.erkosar@finddx.org", role = c("cre", "aut"))
+Description: Contains an app that makes sample size calculations for
+    clinical trials at FIND.
 License: file LICENSE
 Imports: 
     config (>= 0.3.1),
     DT,
-    findsamplesize,
+    findsamplesize (>= 0.0.0.9000),
     golem (>= 0.3.3),
     shiny (>= 1.7.1),
     shinyBS,
@@ -15,7 +17,9 @@ Imports:
     shinyWidgets
 Suggests: 
     testthat (>= 3.0.0)
+Remotes: 
+    github::berkosarFIND/findsamplesize
 Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.2

@@ -1,0 +1,11 @@
+name: SampleSize
+title: SampleSize
+username:
+account: finddx
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5991130
+bundleId: 6784133
+url: https://finddx.shinyapps.io/SampleSize/
+when: 1674913135.58037
+lastSyncTime: 1674913135.58039

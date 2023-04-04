@@ -93,6 +93,8 @@ usethis::use_jenkins()
 # GitLab CI
 usethis::use_gitlab_ci()
 
+usethis::use_dev_package("findsamplesize", type = "Imports",remote = "git::https://github.com/berkosarFIND/findsamplesize")
+
 # You're now set! ----
 # go to dev/03_deploy.R
 rstudioapi::navigateToFile("dev/03_deploy.R")

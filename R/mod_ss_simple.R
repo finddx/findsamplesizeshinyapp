@@ -88,7 +88,7 @@ mod_ss_simple_server <- function(id){
                  trigger = "hover", options = NULL)
 
       pow_list <- c(0.8, 0.85, 0.9, 0.95)
-      simple_sample_size$dt <- gen_pow_curve(seq = pow_list,
+      simple_sample_size$dt <- findsamplesize::gen_pow_curve(seq = pow_list,
                           sen_spe = input$sen_spe100/100,
                           alpha = input$alpha100/100,
                           margin = input$margin200/200,

@@ -103,7 +103,7 @@ mod_ss_cluster_server <- function(id){
 
       cluster_sample_size$table <- data.frame(check.names = FALSE)
       for(i in pow_list){
-        n = cluster_random_sample_size(alpha = input$alpha100/100,
+        n = findsamplesize::cluster_random_sample_size(alpha = input$alpha100/100,
                                        power =i,
                                        coef_var = input$coef_var,
                                        A = cluster_sample_size$A_value,
