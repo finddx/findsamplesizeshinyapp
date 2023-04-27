@@ -35,11 +35,11 @@ mod_inst_ui <- function(id) {
     ),
 
     box(
-      title = "Error Margin",
+      title = "Full width of confidence interval",
       width = 12,
-      "A margin of error (the full width of the confidence interval) tells you how many percentage points your results will differ from the real population value.
-            For example, A 60% “yes” response with an error margin 10% = between 55% and 65% of people think the answer is yes.
-            If the sample sizes are too high with the default value of error margin, you can increase it upto 20%.
+      "The full width of the confidence interval (CI) tells you how many percentage points your results will differ from the real population value.
+            For example, A 60% “yes” response with a CI 10% = between 55% and 65% of people think the answer is yes.
+            If the sample sizes are too high with the default value of the CI, you can increase it upto 30%.
             However, please note that higher error margin means lower precision.",
       background = "orange"
     ),

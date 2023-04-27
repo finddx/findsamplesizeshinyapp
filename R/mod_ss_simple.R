@@ -27,7 +27,7 @@ mod_ss_simple_ui <- function(id){
             checkboxInput(ns("spe"), "Please check if making the calculations for SPECIFICITY", value = FALSE),
 
             sliderInput(ns("margin200"),
-                        "Error Margin -  width of the confidence interval (%)",
+                        "Full width of the confidence interval (%)",
                         min = 1,
                         max = 30,
                         value = 5,
