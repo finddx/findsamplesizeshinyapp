@@ -52,7 +52,7 @@ mod_ss_simple_ui <- function(id){
                   'n to screen' is relevant for prospective studies and indicates the total number of participants to screen in order to obtain the 'n confirmed cases'." ),
              box(DT::dataTableOutput(ns("sample_size_table")), width = 12),
              box(title = "Example text for the protocol", width = 12, "The sensitivity and the specificity of the [DISEASE] RDTs are expected to be [sensitivity]% and [specificity]% respectively.
-                  Based on these values, [n confirmed cases] confirmed positive and [n confirmed cases] confirmed negative cases are needed to reach a power of [Power]%, with a significance level of 95% and a margin of error of [Error Margin]%.
+                  Based on these values, [n confirmed cases] confirmed positive and [n confirmed cases] confirmed negative cases are needed to reach a power of [Power]%, with a significance level of 95% and the full width of 95% confidence interval of [Width]%.
                   Based on existing data, the prevalence of [DISEASE] was estimated to be [Prevalence]%. With a prevalence power of 80% (i.e. power to detect the desired number of cases), we would need to screen a total of [n to screen] participants (Zhou et al. 2011)."),
              box(title = "Reference:", width = 12, "Zhou XH, Obuchowski NA and McClish DK. Statistical Methods in Diagnostic Medicine. 2011;2:193-228", background = "aqua")
       )
